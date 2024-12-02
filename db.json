@@ -9,49 +9,43 @@
         "linkedinUrl": "url here",
         "experienceYear": 5,
         "bio": "Experienced Software Engineer with a passion for web technologies.",
-        "skills": ["JavaScript", "React", "Node.js", "TypeScript"]
+        "skills": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "TypeScript"
+        ]
       }
     ],
     "companies": [
       {
-        "id": 1,
-        "name": "TechNest LLC",
-        "location": "Baku, Azerbaijan",
+        "name": "Technest",
         "industry": "IT",
-        "createdAt": "2023-01-15T12:00:00Z",
-        "website": "https://www.technest.az",
-        "employeesIds": ["1", "2"],
-        "reviews": [
-          {
-            "userId": 1,
-            "comment": "Great company to work with!",
-            "rating": 5
-          },
-          {
-            "userId": 2,
-            "comment": "Friendly environment and innovative projects.",
-            "rating": 4
-          }
-        ]
+        "website": "https://github.com/JhonneyQ/tasksssss/blob/kanan/task2/assets/js/admin.js",
+        "location": "Baku,Azerbaijan",
+        "id": 1
+      },
+      {
+        "name": "Tchnest",
+        "industry": "Data Science",
+        "website": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKWgMTGRzSvwLHjnwshkwDWQf",
+        "location": "Tokyo,Japan",
+        "id": 2
+      },
+      {
+        "name": "GAME_SUMMIT",
+        "industry": "Game-Development",
+        "website": "https://getbootstrap.com/docs/4.0/components/alerts/",
+        "location": "Dubaji,BEE",
+        "id": 3
+      },
+      {
+        "name": "Code-For-Future",
+        "industry": "Front_end",
+        "website": "https://chatgpt.com/",
+        "location": "Elmler-Akademiyasi",
+        "id": 4
       }
     ],
-    "vacancies": [
-      {
-        "id": 1,
-        "title": "Frontend Developer",
-        "companyId": 1,
-        "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
-        "salary": "2000-3000 AZN",
-        "postedAt": "2024-11-30T10:00:00Z",
-        "expiresAt": "2024-12-31T23:59:59Z",
-        "employmentType": "Full-time",
-        "isActive": true,
-        "candidates": [
-          { "candidateId": "1", "status": "pending" },
-          { "candidateId": "2", "status": "accepted" },
-          { "candidateId": "3", "status": "rejected" }
-        ]
-      }
-    ]
+    "vacancies": []
   }
-  
