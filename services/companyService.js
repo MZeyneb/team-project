@@ -3,7 +3,6 @@ import { BASE_URL } from "../constants.js";
 async function getAllData(){
     const res = await axios(`${BASE_URL}/companies`)
     drawcards(res.data)
-
 }
 
 const add = document.querySelector(".add")
@@ -100,12 +99,6 @@ function drawcards(arr){
         delet.addEventListener("click", ()=>{
             deletedata(element.id)
         })
-
-        if (e.value.trim() === "" || f.value.trim() === "" || g.value.trim() === "" || h.value.trim() === "") {
-            editButton.setAttribute("disabled", "true");  
-        } else {
-            editButton.removeAttribute("disabled");  
-        }
 
 
         editButton.addEventListener("click", ()=>{
