@@ -7,7 +7,7 @@ const inside = document.querySelector(".forUser .inside");
 async function getAllData() {
 
     const res = await axios(`${BASE_URL}/companies`)
-    drawCompanies(res.data)
+    drawCompanies(res.data.slice(0, 8))
     
 }
 
