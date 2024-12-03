@@ -1,11 +1,442 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
+body {
+    background-color: #def0e3;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #A8D5BA;
+    /* background-color: #E9F8F2; */
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    cursor: pointer;
+    color: #254138;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: #333333;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6), 0px 0px 15px rgba(37, 65, 56, 0.8);
+
+
+}
+
+nav h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.user img {
+    width: 75%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333333;
+    transition: 0.3s;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.user h3 {
+    color: #333333;
+    transition: 0.3s;
+
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ .forUser {
+    position: fixed;
+    width: 240px;
+    height: 170px;
+    /* display: none; */
+    top: -88px;
+    right: 0;
+    /* or whatever position you need */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-top: 60px; */
+    padding-left: 20px;
+    /* height: 0px; */
+    /* overflow: hidden; */
+    z-index: 500;
+}
+
+.forUser .inside {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    background-color: #A8D5BA;
+    display: flex;
+    transition: 0.5s;
+    align-items: center;
+    position: absolute;
+    
+
+}
+
+.forUser .inside .text h4 {
+    font-weight: 300;
+    transition: 0.3s;
+    color: #254138;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 20px;
+    
+}
+.forUser .inside .text h4:hover{
+    color: white;
+}
+
+#view {
+    padding: 150px 50px;
+
+}
+
+#view h2{
+    width: 60%;
+}
+
+.user:hover img {
+    scale: 1.05;
+}
+
+.user:hover h3 {
+    scale: 1.05;
+}
+
+.user h4 {}
+
+.user:hover img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.user:hover h3 {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6), 0px 0px 15px rgba(37, 65, 56, 0.8);
+
+}
+
+.container {
+    /* max-width: 1500px; */
+    margin: 0 auto;
+
+}
+
+.company .cardsComp{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jobs .cardsJobs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.company .card {
+    margin: 30px 0;
+    width: 230px;
+    height: 250px;
+    background-color: #A8D5BA;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.company .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.company .card h3 {
+    /* position: absolute; */
+    bottom: 10px;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+}
+.company .card p{
+    position: absolute;
+    top: 170px;
+    font-size: 15px;
+}
+.company .card:hover {
+    scale: 1.05;
+}
+
+/* ---------- */
+
+
+.jobs .card {
+    margin: 30px 0;
+    width: 230px;
+    height: 250px;
+    background-color: #A8D5BA;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.jobs .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.jobs .card h3 {
+    /* position: absolute; */
+    bottom: 10px;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+}
+.jobs .card p{
+    position: absolute;
+    top: 170px;
+    font-size: 15px;
+}
+.jobs .card:hover {
+    scale: 1.05;
+}
+
+#view h2 {
+    color: #333333;
+    font-weight: 400;
+}
+
+#view .card h3 {
+    color: #254138;
+}
+
+.company{
+
+}
+
+#heder{
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+#heder h1{
+    font-size: 55px;
+    color: #679684;
+    width: 500px;
+    text-align: center;
+}
+#heder .imge{
+    width: 500px;
+    height: 500px;
+}
+
+.imge img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#about{
+    padding: 7% 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont{
+    width: 50%;
+}
+#about h3, h2{
+    color: #254138;
+    transition: 0.3s;
+}
+
+#about h3{
+    font-size: 25px;
+    cursor: pointer;
+    width: 30%;
+
+}
+
+#about h2{
+    font-size: 30px;
+}
+
+.mission{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+.join{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+.chose{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+.mission{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+}
+.wedo{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+
+
+#about h3:hover{
+    color: #333333;
+    border-radius: 20px;
+
+
+}
+
+#about p span{
+    font-size: 20px;
+    color: #254138;
+    font-weight: 700;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+.ust{
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#about .imga{
+display: flex;
+width: 50%;
+
+}
+
+.imga img{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+    background-color: #333333;
+    
+}
+
+footer p{
+    color: white;
+}
+
+.pic{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.pic img{
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width: 1024px) {
+    #heder{
+        flex-wrap: wrap;
+    }
+    #heder h1{
+        width: 90%;
+    } 
+    #heder .imge{
+        width: 600px;
+        height: 600px ;
+    } 
+    nav ul{
+        display: none;
+    }
+    
+}

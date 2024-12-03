@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Top Agency</title>
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
 </head>
+
 <body>
+    <header>
+        <h1>Job Vacancy</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Vacancies</a></li>
+
+            </ul>
+
+            
     
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <div class="dashboard-sidebar">
+            <ul>
+                <li><a href="addJob.html">Add Vacancy</a></li>
+                <li><a href="addCompany.html">Add Company</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="dashboard-content">
+            <h2>Vakansiyalar</h2>
+            <div class="vacancy-card">
+                <h3>Frontend Developer</h3>
+                <p>We are looking for a skilled Frontend Developer with experience in React and TypeScript.</p>
+                <div class="salary">2000-3000 AZN</div>
+                <div class="employment-type">Full-time</div>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+            <div class="vacancy-card">
+                <h3>Backend Developer</h3>
+                <p>We are seeking an experienced Backend Developer with a focus on Node.js.</p>
+                <div class="salary">3000-4000 AZN</div>
+                <div class="employment-type">Full-time</div>
+                <a href="#" class="apply-button">Apply Now</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 İş Tapma Platforması </p>
+    </footer>
+
+    <script src="../services/dashboard.js"></script>
 </body>
+
 </html>
