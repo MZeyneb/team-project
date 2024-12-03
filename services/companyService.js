@@ -18,6 +18,7 @@ const a = document.querySelector(".inpname");
 const b = document.querySelector(".inppar");
 const c = document.querySelector(".inpprice");
 const d = document.querySelector(".location");
+const i = document.querySelector(".img-src")
 const radd = document.querySelector(".radd");
 const dn = document.querySelector(".k-input");
 const dn2 = document.querySelector(".k2-input");
@@ -26,6 +27,7 @@ const e = document.querySelector(".editName");
 const f = document.querySelector(".editPar");
 const g = document.querySelector(".editPrice");
 const h = document.querySelector(".editlocation");
+const j = document.querySelector(".edit-img-src")
 
 let editingId = null; 
 
@@ -46,6 +48,7 @@ radd.addEventListener("click", async function () {
             industry: b.value.trim(),
             website: c.value.trim(),
             location: d.value.trim(),
+            image: i.value.trim(),
         });
     } else {
         await axios.patch(`${BASE_URL}/companies/${editingId}`, {
@@ -53,6 +56,7 @@ radd.addEventListener("click", async function () {
             industry: f.value.trim(),
             website: g.value.trim(),
             location: h.value.trim(),
+            image: j.value.trim(),
         });
     }
     getAllData(); 
@@ -65,6 +69,7 @@ function populateEditForm(id) {
     f.value = item.industry;
     g.value = item.website;
     h.value = item.location;
+    j.value = item.image;
     e.dataset.id = id; 
 }   
 
@@ -154,6 +159,8 @@ function clearInputFields() {
     f.value = "";
     g.value = "";
     h.value = "";
+    i.value = "";
+    j.value = "";
 }
 
 getAllData();
