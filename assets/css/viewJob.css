@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.dashboard-content {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+}
+
+.dashboard-content h2 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.vacancy-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.vacancy-card h3 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0;
+}
+
+.vacancy-card p {
+    font-size: 16px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+.vacancy-card .salary {
+    font-size: 18px;
+    color: #A8D5BA;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.vacancy-card .employment-type {
+   background-color: #333333;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.vacancy-card .apply-button {
+    background-color:  #A8D5BA;
+    color: #333333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.vacancy-card .apply-button:hover {
+    background-color:  #A8D5BA;
+    color: white;
+    background-color: #333333;
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .dashboard-sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .dashboard-content {
+        width: 100%;
+    }
+}
+
+.dashboard-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-input{
+    padding: 5px 7px;
+    border: 2px solid #A8D5BA;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 7px;
+    outline: none;
+}
+
+#select{
+    padding: 5px 7px;
+    border: 2px solid #A8D5BA;
+    border-radius: 10px;
+}
+
+.sort{
+    padding: 5px 7px;
+    border: 2px solid #A8D5BA;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .dashboard-sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .dashboard-content {
+        width: 100%;
+    }
+
+    .dashboard-head{
+        flex-direction: column;
+    }
+    #search-input{
+        width: 150px;
+        margin: 15px 0;
+    }
+    #select{
+        width: 80px;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #def0e3;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #A8D5BA;
+    /* background-color: #E9F8F2; */
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    cursor: pointer;
+    color: #254138;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: #333333;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6), 0px 0px 15px rgba(37, 65, 56, 0.8);
+
+
+}
+
+nav h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.user img {
+    width: 75%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333333;
+    transition: 0.3s;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.user h3 {
+    color: #333333;
+    transition: 0.3s;
+
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ .forUser {
+    position: fixed;
+    width: 240px;
+    height: 170px;
+    /* display: none; */
+    top: -88px;
+    right: 0;
+    /* or whatever position you need */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-top: 60px; */
+    padding-left: 20px;
+    /* height: 0px; */
+    /* overflow: hidden; */
+    z-index: 500;
+}
+
+.forUser .inside {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    background-color: #A8D5BA;
+    display: flex;
+    transition: 0.5s;
+    align-items: center;
+    position: absolute;
+    
+
+}
+
+.forUser .inside .text h4 {
+    font-weight: 300;
+    transition: 0.3s;
+    color: #254138;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 20px;
+    
+}
+.forUser .inside .text h4:hover{
+    color: white;
+}
+.user:hover img {
+    scale: 1.05;
+}
+
+.user:hover h3 {
+    scale: 1.05;
+}
+
+
+.user:hover img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.user:hover h3 {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6), 0px 0px 15px rgba(37, 65, 56, 0.8);
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+    background-color: #333333;
+    
+}
+
+footer p{
+    color: white;
+}

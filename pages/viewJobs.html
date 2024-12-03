@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Agency</title>
+    <link rel="stylesheet" href="../assets/css/viewJob.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Job Vacancy</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Companies</a></li>
+            <li><a href="#">Vacancies</a></li>
+
+        </ul>
+
+        <div class="user">
+            <div class="side">
+                <img src="https://raw.githubusercontent.com/MZeyneb/team-project/refs/heads/zeyneb/assets/images/anonymous-user.webp" alt="">
+                <h3>User</h3>
+
+            </div>
+
+        
+        </div>
+        
+
+    </nav>
+    <div class="forUser">
+        <div class="inside">
+
+            <div class="text">
+                <h4>My Vacancies</h4>
+                <h4>Log Out</h4>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="dashboard-container">
+        <div class="dashboard-sidebar">
+            <ul>
+                <li><a href="addJob.html">Add Vacancy</a></li>
+                <li><a href="addCompany.html">Add Company</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="dashboard-content">
+            <div class="dashboard-head">
+                <h2>Vakansiyalar</h2>
+                <div class="search">
+                <label for="search-input">Search For Jobs :</input>
+                <input type="text" placeholder="Search in here..." id="search-input" />
+                <select name="" id="select">
+                    <option value="search here" hidden>Add Here</option>
+                    <option value="All">All</option>
+                    <option value="full-time">Full-Time</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="Contract">Contract</option>
+                    <option value="seosanal">Seosonal</option>
+                    <option value="Temporary">Temporary</option>
+                </select>
+                <button class="sort">Default</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="vacancy-card">
+                    <!-- <h3>Frontend Developer</h3>
+                    <p>We are looking for a skilled Frontend Developer with experience in React and TypeScript.</p>
+                    <div class="salary">2000-3000 AZN</div>
+                    <div class="employment-type">Full-time</div>
+                    <a href="#" class="apply-button">Apply Now</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Job Vacancy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js" integrity="sha512-v8+bPcpk4Sj7CKB11+gK/FnsbgQ15jTwZamnBf/xDmiQDcgOIYufBo6Acu1y30vrk8gg5su4x0CG3zfPaq5Fcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../main.js" type="module"></script>
+    <script src="../services/vacancyService.js" type="module"></script>
+</body>
+
+</html>
+

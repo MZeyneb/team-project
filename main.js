@@ -1,3 +1,7 @@
+
+const user = document.querySelector(".side");
+const foruser = document.querySelector(".forUser");
+const inside = document.querySelector(".forUser .inside");
 import { BASE_URL } from "./constants.js";
 const user = document.querySelector(".side");
 const foruser = document.querySelector(".forUser");
@@ -33,7 +37,6 @@ user.addEventListener("click", function () {
         inside.style.top = "170px";
     }
 });
-
 
 function drawCompanies(arr) {
     cardsComp.innerHTML = "";
