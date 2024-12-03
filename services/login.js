@@ -1,19 +1,19 @@
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();  // Prevent the default form submission
+    event.preventDefault();  
 
-    // Get user input from the form fields
+   
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    // Get the user data stored in localStorage
+  
     const storedUserData = localStorage.getItem('userData');
     
     if (storedUserData) {
-        const userData = JSON.parse(storedUserData);
+        const userData = JSON.parse(storedUserData); //  burada saxlanilmis melumat string formatindadir. Json.parse yaziriqki  stringi obyekt formatina cevrilsin
 
-        // Check if the entered email and password match
-        if (userData.email === email && userData.password === password) {
-            // Credentials are correct, redirect to main.html
+      
+        if (userData.email === email && userData.password === password) {  // burada eger daxil olunmus sifre ve email eynidirse lS daki ile giris ugurlu olur ve biz index.html sehifesine gedr
+        
             window.location.href = 'index.html';
         } else {
             alert('Invalid email or password!');
