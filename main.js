@@ -3,6 +3,19 @@ import { BASE_URL } from "./constants.js";
 const user = document.querySelector(".side");
 const foruser = document.querySelector(".forUser");
 const inside = document.querySelector(".forUser .inside");
+const mission = document.querySelector(".mission");
+const join = document.querySelector(".join");
+const wedo = document.querySelector(".wedo");
+const chose = document.querySelector(".chose");
+const missionh = document.querySelector(".missionh");
+const joinh = document.querySelector(".joinh");
+const wedoh = document.querySelector(".wedoh");
+const choseh = document.querySelector(".choseh");
+
+
+missionh.addEventListener("click", function(){
+    mission.style.height= "120px";
+})
 
 async function getAllData() {
 

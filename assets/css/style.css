@@ -246,3 +246,26 @@ nav h1 {
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+#about{
+    padding: 5% 3%;
+    width: 60%;
+}
+#about h3, h2{
+    color: #254138;
+}
+
+#about h3{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#about h2{
+    font-size: 30px;
+}
+
+.mission{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+}
