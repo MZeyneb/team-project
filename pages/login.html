@@ -4,8 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/css/login.css" />
 </head>
+<style>
+    .pw-eye{
+    position: relative;
+   }
+   .eye-icon{
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 111;
+   }
+</style>
 <body>
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -46,16 +58,20 @@
                             >
                         </div>
                     </div>
-                    <div class="mt-2">
-                        <input
+                    <div>
+                        <!-- <label for="password" class="block text-sm/6 font-medium text-gray-900">Password *</label> -->
+                        <div class="mt-2 pw-eye">
+                          <input
                             type="password"
                             name="password"
                             id="password"
                             autocomplete="current-password"
                             required
                             class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-green-700 sm:text-sm/6"
-                        />
-                    </div>
+                          />
+                          <i class="fa-solid fa-eye-slash eye-icon"></i>  <!-- Göz ikonu burada -->
+                        </div>
+                      </div>
                 </div>
 
                 <div>
