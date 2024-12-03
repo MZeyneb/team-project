@@ -98,7 +98,7 @@ function drawcards(arr) {
             <td>${element.description}</td>
             <td>${element.salary} AZN</td>
             <td>${element.employmentType}</td>
-            <td>${element.expiresAt.slice(0, 10)}</td>
+            <td>${element.expiresAt.slice(0, 10)} AZN</td>
             <td></td>`;
 
         tr.querySelector("td:last-child").appendChild(delet);
