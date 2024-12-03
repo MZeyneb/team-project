@@ -3,7 +3,12 @@ import { BASE_URL } from "../constants.js";
 async function getAllData(){
     const res = await axios(`${BASE_URL}/companies`)
     drawcards(res.data)
+    arr = res.data
 }
+
+const input = document.querySelector(".search")
+
+let arr = null
 
 const add = document.querySelector(".add")
 const editinp = document.querySelector(".show")
@@ -113,5 +118,12 @@ function drawcards(arr){
 
     });
 }
+
+input.addEventListener("keyup", function () {
+    const filtered = arr.filter((item) => {
+        return item.name.toLowerCase().includes(input.value.toLowerCase().trim());
+    });
+    drawcards(filtered);
+  });
 
 getAllData()
