@@ -23,7 +23,8 @@
       "industry": "Data Science",
       "website": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKWgMTGRzSvwLHjnwshkwDWQf",
       "location": "Tokyo,Japan",
-      "id": 2
+      "id": 2,
+      "title": "Tchnest"
     },
     {
       "name": "GAME_SUMMIT",
@@ -38,13 +39,6 @@
       "website": "https://chatgpt.com/",
       "location": "Elmler-Akademiyasi",
       "id": 4
-    },
-    {
-      "name": "Code-8",
-      "industry": "full-stack",
-      "website": "https://github.com/MZeyneb/team-project/blob/fatima/assets/css/dashboard.css",
-      "location": "ADNSU",
-      "id": 5
     },
     {
       "name": "Tech Innovators Inc.",
