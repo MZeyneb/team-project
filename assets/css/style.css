@@ -199,10 +199,12 @@ nav h1 {
     bottom: 10px;
     margin: auto;
     font-size: 22px;
+    text-align: center;
+    width: 80%;
 }
 .company .card p{
     position: absolute;
-    top: 140px;
+    top: 170px;
     font-size: 15px;
 }
 .company .card:hover {

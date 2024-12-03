@@ -1,51 +1,86 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Elvin Abbasov",
-        "email": "elvin.abbasov@example.com",
-        "createdAt": "2024-12-01T08:00:00Z",
-        "profileImage": "user.jpeg",
-        "linkedinUrl": "url here",
-        "experienceYear": 5,
-        "bio": "Experienced Software Engineer with a passion for web technologies.",
-        "skills": [
-          "JavaScript",
-          "React",
-          "Node.js",
-          "TypeScript"
-        ]
-      }
-    ],
-    "companies": [
-      {
-        "name": "Technest",
-        "industry": "IT",
-        "website": "https://github.com/JhonneyQ/tasksssss/blob/kanan/task2/assets/js/admin.js",
-        "location": "Baku,Azerbaijan",
-        "id": 1
-      },
-      {
-        "name": "Tchnest",
-        "industry": "Data Science",
-        "website": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKWgMTGRzSvwLHjnwshkwDWQf",
-        "location": "Tokyo,Japan",
-        "id": 2
-      },
-      {
-        "name": "GAME_SUMMIT",
-        "industry": "Game-Development",
-        "website": "https://getbootstrap.com/docs/4.0/components/alerts/",
-        "location": "Dubaji,BEE",
-        "id": 3
-      },
-      {
-        "name": "Code-For-Future",
-        "industry": "Front_end",
-        "website": "https://chatgpt.com/",
-        "location": "Elmler-Akademiyasi",
-        "id": 4
-      }
-    ],
-    "vacancies": []
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Elvin Abbasov",
+      "email": "elvin.abbasov@example.com",
+      "createdAt": "2024-12-01T08:00:00Z",
+      "profileImage": "user.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 5,
+      "bio": "Experienced Software Engineer with a passion for web technologies.",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "name": "Tchnest",
+      "industry": "Data Science",
+      "website": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKWgMTGRzSvwLHjnwshkwDWQf",
+      "location": "Tokyo,Japan",
+      "id": 2
+    },
+    {
+      "name": "GAME_SUMMIT",
+      "industry": "Game-Development",
+      "website": "https://getbootstrap.com/docs/4.0/components/alerts/",
+      "location": "Dubaji,BEE",
+      "id": 3
+    },
+    {
+      "name": "Code-For-Future",
+      "industry": "Front_end",
+      "website": "https://chatgpt.com/",
+      "location": "Elmler-Akademiyasi",
+      "id": 4
+    },
+    {
+      "name": "Code-8",
+      "industry": "full-stack",
+      "website": "https://github.com/MZeyneb/team-project/blob/fatima/assets/css/dashboard.css",
+      "location": "ADNSU",
+      "id": 5
+    },
+    {
+      "name": "Tech Innovators Inc.",
+      "industry": "Technology",
+      "website": "https://techinnovators.com",
+      "location": "San Francisco, CA",
+      "id": 6
+    },
+    {
+      "name": "Global Enterprises Group",
+      "industry": "Artificial Intelligence (AI)",
+      "website": "https://globalenterprises.com",
+      "location": "Sydney, Australia",
+      "id": 7
+    },
+    {
+      "name": "Green Solutions LLC",
+      "industry": "Renewable Energy",
+      "website": "https://greensolutions.com",
+      "location": "New York, NY",
+      "id": 8
+    },
+    {
+      "name": "Alpha Robotics Corp.",
+      "industry": "Manufacturing",
+      "website": "https://alpharobotics.com",
+      "location": "London, UK",
+      "id": 9
+    },
+    {
+      "name": "Quantum Technologies Ltd.",
+      "industry": "Healthcare",
+      "website": "https://quantumtechnologies.com",
+      "location": "Berlin, Germany",
+      "id": 10
+    }
+  ],
+  "vacancies": []
+}
