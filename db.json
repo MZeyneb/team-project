@@ -59,6 +59,27 @@
       "website": "https://globalenterprises.com",
       "location": "Sydney, Australia",
       "id": 7
+    },
+    {
+      "name": "Green Solutions LLC",
+      "industry": "Renewable Energy",
+      "website": "https://greensolutions.com",
+      "location": "New York, NY",
+      "id": 8
+    },
+    {
+      "name": "Alpha Robotics Corp.",
+      "industry": "Manufacturing",
+      "website": "https://alpharobotics.com",
+      "location": "London, UK",
+      "id": 9
+    },
+    {
+      "name": "Quantum Technologies Ltd.",
+      "industry": "Healthcare",
+      "website": "https://quantumtechnologies.com",
+      "location": "Berlin, Germany",
+      "id": 10
     }
   ],
   "vacancies": []
