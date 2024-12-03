@@ -17,6 +17,25 @@
       ]
     }
   ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Elvin Abbasov",
+      "email": "elvin.abbasov@example.com",
+      "createdAt": "2024-12-01T08:00:00Z",
+      "profileImage": "user.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 5,
+      "bio": "Experienced Software Engineer with a passion for web technologies.",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ]
+    }
+  ],
+  
   "companies": [
     {
       "name": "Tchnest",
