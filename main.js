@@ -3,9 +3,8 @@ const user = document.querySelector(".side");
 const foruser = document.querySelector(".forUser");
 const inside = document.querySelector(".forUser .inside");
 import { BASE_URL } from "./constants.js";
-const user = document.querySelector(".side");
-const foruser = document.querySelector(".forUser");
-const inside = document.querySelector(".forUser .inside");
+
+
 
 async function getAllData() {
 

@@ -317,3 +317,7 @@ footer{
 footer p{
     color: white;
 }
+
+.dashboard-container{
+    padding-top: 70px;
+}
