@@ -42,6 +42,7 @@ function drawCompanies(arr) {
         card.classList.add("card")
         card.innerHTML=`
                 <div class="pic">
+                <img src="${element.image}">
                 </div>
                 <h3>${element.name}</h3>
                 <p>${element.industry}</p>
@@ -63,7 +64,9 @@ function drawJobs(arr){
         const card = document.createElement("div")
         card.classList.add("card")
         card.innerHTML=`
-
+                <div class="pic">
+                <img src="${element.image}">
+                </div>
                 <h3>${element.title}</h3>
                 <p>${element.employmentType}</p>
 

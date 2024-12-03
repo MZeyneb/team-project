@@ -23,63 +23,72 @@
       "industry": "Data Science",
       "website": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKWgMTGRzSvwLHjnwshkwDWQf",
       "location": "Tokyo,Japan",
-      "id": 2
+      "id": 2,
+      "image": "https://imageio.forbes.com/specials-images/imageserve/615a844b0e678d9d11c5fc26/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
     },
     {
       "name": "GAME_SUMMIT",
       "industry": "Game-Development",
       "website": "https://getbootstrap.com/docs/4.0/components/alerts/",
       "location": "Dubaji,BEE",
-      "id": 3
+      "id": 3, 
+      "image": "https://cdn.iticket.az/event/gallery/77iH7PZU5Tmo7jSR8BXdBFoenbTXyiEBGqEmWd0b.jpg"
     },
     {
       "name": "Code-For-Future",
       "industry": "Front_end",
       "website": "https://chatgpt.com/",
       "location": "Elmler-Akademiyasi",
-      "id": 4
+      "id": 4,
+      "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Front_End_Developer_Job_Description.jpg"
     },
     {
       "name": "Code-8",
       "industry": "full-stack",
       "website": "https://github.com/MZeyneb/team-project/blob/fatima/assets/css/dashboard.css",
       "location": "ADNSU",
-      "id": 5
+      "id": 5,
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/97/2020/10/tes_gen_blog_code1-800x412.jpg"
     },
     {
       "name": "Tech Innovators Inc.",
       "industry": "Technology",
       "website": "https://techinnovators.com",
       "location": "San Francisco, CA",
-      "id": 6
+      "id": 6,
+      "image": "https://innovationmanagement.se/wp-content/uploads/2013/05/what-is-innovation-governance-definition-scope.jpg"
     },
     {
       "name": "Global Enterprises Group",
       "industry": "Artificial Intelligence (AI)",
       "website": "https://globalenterprises.com",
       "location": "Sydney, Australia",
-      "id": 7
+      "id": 7,
+      "image": "https://a.storyblok.com/f/165154/1280x720/92fed695e9/01_hero-image_what-is-an-enterprise-company-definition-types-and-examples.jpg/m/"
     },
     {
       "name": "Green Solutions LLC",
       "industry": "Renewable Energy",
       "website": "https://greensolutions.com",
       "location": "New York, NY",
-      "id": 8
+      "id": 8,
+      "image": "https://greensolutions.eu/media/wysiwyg/GreenSolutions_02_2022_REZ_1.jpg"
     },
     {
       "name": "Alpha Robotics Corp.",
       "industry": "Manufacturing",
       "website": "https://alpharobotics.com",
       "location": "London, UK",
-      "id": 9
+      "id": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgYn2fuGvg6hqFXfcYslwdDi8-WN_UMOLFQ&s"
     },
     {
       "name": "Quantum Technologies Ltd.",
       "industry": "Healthcare",
       "website": "https://quantumtechnologies.com",
       "location": "Berlin, Germany",
-      "id": 10
+      "id": 10,
+      "image": "https://www.oxinst.com/assets/components/phpthumbof/cache/Quantum%20Webinar%20-%20NanoSciene.bf36605bf435de95255253038a506f23.png"
     }
   ],
   "vacancies": [
@@ -92,6 +101,7 @@
       "postedAt": "2024-11-30T10:00:00Z",
       "expiresAt": "2024-12-31T23:59:59Z",
       "employmentType": "Full-time",
+      "image":"https://novateus.com/blog/wp-content/uploads/2022/02/software-developer-gef18a0b18_1280.jpg",
       "isActive": true,
       "candidates": [
         {
@@ -115,7 +125,8 @@
       "salary": "4500 AZN",
       "employmentType": "Contract",
       "postedAt": "2024-12-03",
-      "expiresAt": "2025-01-09"
+      "expiresAt": "2025-01-09",
+      "image":"https://blog.talent500.co/wp-content/uploads/2023/10/experienced-web-developer-doing-backend-development.jpg"
     },
     {
       "id": "2433",
@@ -124,7 +135,8 @@
       "salary": "2500-3000 AZN",
       "employmentType": "Seosonal",
       "postedAt": "2024-12-03",
-      "expiresAt": "2024-12-31"
+      "expiresAt": "2024-12-31",
+      "image":"https://www.javelin-tech.com/3d/wp-content/uploads/solidworks-software-800x601.jpg"
     },
     {
       "id": "b1c1",
@@ -133,7 +145,8 @@
       "salary": "800 AZN",
       "employmentType": "Full-Time",
       "postedAt": "2024-12-03",
-      "expiresAt": "2024-12-19"
+      "expiresAt": "2024-12-19",
+      "image":"https://gray-wtok-prod.gtv-cdn.com/resizer/v2/RTP4QEG3D5BHNNXL5ICJSXW62Y.png?auth=5aa600d9479b595fdecc9e3a84c676a5443b2dab8d14e3e921513a4c3e7fceeb&width=800&height=450&smart=true"
     },
     {
       "id": "90f6",
@@ -142,7 +155,8 @@
       "salary": "400 AZN",
       "employmentType": "Part-Time",
       "postedAt": "2024-12-03",
-      "expiresAt": "2024-12-25"
+      "expiresAt": "2024-12-25",
+      "image":"https://www.travsonic.com/wp-content/uploads/2022/01/audio-engineer-recording.jpg"
     },
     {
       "id": "a517",
@@ -151,7 +165,8 @@
       "salary": "1000 AZN",
       "employmentType": "Contract",
       "postedAt": "2024-12-03",
-      "expiresAt": "2025-04-10"
+      "expiresAt": "2025-04-10",
+      "image":"https://www.travsonic.com/wp-content/uploads/2022/01/audio-engineer-recording.jpg"
     },
     {
       "id": "40c7",
@@ -160,7 +175,8 @@
       "salary": "1200 AZN",
       "employmentType": "Seosonal",
       "postedAt": "2024-12-03",
-      "expiresAt": "2024-12-26"
+      "expiresAt": "2024-12-26",
+      "image":"https://www.staffingattiffanies.com/wp-content/uploads/2021/02/Hire-a-Personal-Driver-or-Chauffeur.jpg"
     },
     {
       "id": "6bfb",
@@ -169,7 +185,8 @@
       "salary": "500 AZN",
       "employmentType": "Temporary",
       "postedAt": "2024-12-03",
-      "expiresAt": "2025-01-25"
+      "expiresAt": "2025-01-25",
+      "image":"https://www.hull-o.com/wp-content/uploads/2015/10/Farmer.jpg"
     },
     {
       "id": "b241",
@@ -178,7 +195,8 @@
       "salary": "1300 AZN",
       "employmentType": "Full-Time",
       "postedAt": "2024-12-03",
-      "expiresAt": "2025-03-05"
+      "expiresAt": "2025-03-05",
+      "image":"https://c9staff.com/wp-content/uploads/2024/06/Understanding-the-Marketing-Coordinator-Role-1024x574.webp"
     },
     {
       "id": "0d1f",
@@ -187,7 +205,8 @@
       "salary": "1 AZN",
       "employmentType": "Part-Time",
       "postedAt": "2024-12-03",
-      "expiresAt": "2024-12-31"
+      "expiresAt": "2024-12-31",
+      "image":"https://fsa2-assets.imgix.net/assets/iStock-1338373380.jpg?auto=compress%2Cformat&crop=focalpoint&domain=fsa2-assets.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=800&ixlib=php-3.3.1&w=1200"
     }
 
   ]
