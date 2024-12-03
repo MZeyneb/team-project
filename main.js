@@ -6,10 +6,10 @@ const inside = document.querySelector(".forUser .inside");
 async function getAllData() {
 
     const res = await axios(`${BASE_URL}/companies`)
-    drawCompanies(res.data.slice(0, 8))
+    drawCompanies(res.data.slice(0, 7))
 
     const res2 = await axios(`${BASE_URL}/vacancies`)
-    drawJobs(res2.data.slice(0, 8))
+    drawJobs(res2.data.slice(0, 7))
     
 }
 
