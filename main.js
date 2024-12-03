@@ -41,7 +41,8 @@ function drawCompanies(arr) {
         const card = document.createElement("div")
         card.classList.add("card")
         card.innerHTML=`
-
+                <div class="pic">
+                </div>
                 <h3>${element.name}</h3>
                 <p>${element.industry}</p>
 
