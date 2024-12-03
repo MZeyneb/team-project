@@ -38,6 +38,27 @@
       "website": "https://chatgpt.com/",
       "location": "Elmler-Akademiyasi",
       "id": 4
+    },
+    {
+      "name": "Code-8",
+      "industry": "full-stack",
+      "website": "https://github.com/MZeyneb/team-project/blob/fatima/assets/css/dashboard.css",
+      "location": "ADNSU",
+      "id": 5
+    },
+    {
+      "name": "Tech Innovators Inc.",
+      "industry": "Technology",
+      "website": "https://techinnovators.com",
+      "location": "San Francisco, CA",
+      "id": 6
+    },
+    {
+      "name": "Global Enterprises Group",
+      "industry": "Artificial Intelligence (AI)",
+      "website": "https://globalenterprises.com",
+      "location": "Sydney, Australia",
+      "id": 7
     }
   ],
   "vacancies": []
