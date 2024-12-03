@@ -1,3 +1,5 @@
+
+
 document.getElementById('registerForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Formanın normal şəkildə göndərilməsinin qarşısını alırıq
 
