@@ -152,5 +152,113 @@
 
     }
   ],
-  "vacancies": []
+  "vacancies": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "1",
+          "status": "pending"
+        },
+        {
+          "candidateId": "2",
+          "status": "accepted"
+        },
+        {
+          "candidateId": "3",
+          "status": "rejected"
+        }
+      ]
+    },
+    {
+      "id": "19e5",
+      "title": "Backend Developer",
+      "description": "We are looking for skilled backend dev",
+      "salary": "4500 AZN",
+      "employmentType": "Contract",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2025-01-09"
+    },
+    {
+      "id": "2433",
+      "title": "3D Design",
+      "description": "We are looking for Desogner who have 3 year experience with Blender and 3DMax",
+      "salary": "2500-3000 AZN",
+      "employmentType": "Seosonal",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-31"
+    },
+    {
+      "id": "b1c1",
+      "title": "Janitor",
+      "description": "Woman janitor 8 hours work at office",
+      "salary": "800 AZN",
+      "employmentType": "Full-Time",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-19"
+    },
+    {
+      "id": "90f6",
+      "title": "Cashier",
+      "description": "Cashier at Bolmart",
+      "salary": "400 AZN",
+      "employmentType": "Part-Time",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-25"
+    },
+    {
+      "id": "a517",
+      "title": "Sound Engineer",
+      "description": "Looking for Sound Engineer For Europe tour 2 weeks hotel and other included salary for each concert",
+      "salary": "1000 AZN",
+      "employmentType": "Contract",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2025-04-10"
+    },
+    {
+      "id": "40c7",
+      "title": "Personal Driver",
+      "description": "For personal drives with max comfort requires 5 year driving exp car is Mercedes S350",
+      "salary": "1200 AZN",
+      "employmentType": "Seosonal",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-26"
+    },
+    {
+      "id": "6bfb",
+      "title": "Farmer",
+      "description": "Farming in field easy job exp no need",
+      "salary": "500 AZN",
+      "employmentType": "Temporary",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2025-01-25"
+    },
+    {
+      "id": "b241",
+      "title": "Marketing Coordinator",
+      "description": "We are seeking a creative and highly organized Marketing Coordinator to join our dynamic team. This individual will be responsible for assisting with the execution of marketing strategies and campaigns that drive brand awareness and customer engagement. The ideal candidate will have strong communication skills, an understanding of digital marketing, and a passion for staying on top of industry trends.",
+      "salary": "1300 AZN",
+      "employmentType": "Full-Time",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2025-03-05"
+    },
+    {
+      "id": "0d1f",
+      "title": "Software Engineer",
+      "description": "iwlesin",
+      "salary": "1 AZN",
+      "employmentType": "Part-Time",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-31"
+    }
+
+  ]
 }
