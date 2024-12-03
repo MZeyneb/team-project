@@ -1,7 +1,3 @@
-
-const user = document.querySelector(".side");
-const foruser = document.querySelector(".forUser");
-const inside = document.querySelector(".forUser .inside");
 import { BASE_URL } from "./constants.js";
 const user = document.querySelector(".side");
 const foruser = document.querySelector(".forUser");
@@ -48,9 +44,6 @@ function drawCompanies(arr) {
                 </div>
                 <h3>${element.name}</h3>
                 <p>${element.industry}</p>
-
-
-
         `
         cardsComp.appendChild(card)
         
