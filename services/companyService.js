@@ -6,6 +6,8 @@ async function getAllData() {
     arr = res.data;
 }
 
+const form = document.querySelector("form")
+
 const input = document.querySelector(".search");
 
 let arr = null;
@@ -57,23 +59,17 @@ radd.addEventListener("click", async function () {
 });
 
 
-editinp.addEventListener("click", function () {
-    dn2.classList.toggle("d-none"); 
-    dn.classList.add("d-none"); 
-    if (!dn2.classList.contains("d-none") && editingId !== null) {
-       
-        populateEditForm(editingId);
-    }
-});
-
-
 function populateEditForm(id) {
     const item = arr.find(element => element.id === id);
     e.value = item.name;
     f.value = item.industry;
     g.value = item.website;
     h.value = item.location;
-}
+    e.dataset.id = id; 
+}   
+
+
+
 
 const tbody = document.querySelector("tbody");
 
@@ -116,13 +112,31 @@ function drawcards(arr) {
             deletedata(element.id);
         });
 
-        editButton.addEventListener("click", () => {
-            editingId = element.id;
-            dn2.classList.remove("d-none"); 
-            dn.classList.add("d-none"); 
+        editButton.addEventListener("click", async () => {
+            populateEditForm(element.id);
+            dn2.classList.remove("d-none");
+            dn.classList.add("d-none");
         });
     });
 }
+
+
+form.addEventListener('submit', async function (e) {
+    e.preventDefault(); 
+  
+    const itemId = e.target.querySelector(".editName").dataset.id;  
+
+    if (itemId) {  
+        await axios.patch(`${BASE_URL}/companies/${itemId}`, {
+            title: e.target.querySelector(".editName").value.trim(),
+        industry: e.target.querySelector(".editPar").value.trim(),
+            website: e.target.querySelector(".editPrice").value.trim(),
+            location: e.target.querySelector(".editlocation").value.trim(),
+        });
+    }
+    getAllData(); 
+});
+
 
 input.addEventListener("keyup", function () {
     const filtered = arr.filter((item) => {

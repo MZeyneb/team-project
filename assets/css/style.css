@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +26,7 @@ nav {
     position: fixed;
     box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
     z-index: 1000;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -89,7 +91,7 @@ nav h1 {
 }
 
  .forUser {
-    position: absolute;
+    position: fixed;
     width: 240px;
     height: 170px;
     /* display: none; */
@@ -107,6 +109,7 @@ nav h1 {
 }
 
 .forUser .inside {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     height: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -170,8 +173,16 @@ nav h1 {
 .company .cardsComp{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.jobs .cardsJobs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 .company .card {
@@ -211,6 +222,46 @@ nav h1 {
     scale: 1.05;
 }
 
+/* ---------- */
+
+
+.jobs .card {
+    margin: 30px 0;
+    width: 230px;
+    height: 250px;
+    background-color: #A8D5BA;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.jobs .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.jobs .card h3 {
+    /* position: absolute; */
+    bottom: 10px;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+}
+.jobs .card p{
+    position: absolute;
+    top: 170px;
+    font-size: 15px;
+}
+.jobs .card:hover {
+    scale: 1.05;
+}
+
 #view h2 {
     color: #333333;
     font-weight: 400;
@@ -230,19 +281,162 @@ nav h1 {
     justify-content: center;
     align-items: center;
     gap: 150px;
+    flex-wrap: wrap;
 }
 #heder h1{
     font-size: 55px;
     color: #679684;
-    width: 25%;
+    width: 500px;
     text-align: center;
 }
 #heder .imge{
-    width: 30%;
+    width: 500px;
+    height: 500px;
 }
 
 .imge img{
     width: 100%;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#about{
+    padding: 7% 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont{
+    width: 50%;
+}
+#about h3, h2{
+    color: #254138;
+    transition: 0.3s;
+}
+
+#about h3{
+    font-size: 25px;
+    cursor: pointer;
+    width: 30%;
+
+}
+
+#about h2{
+    font-size: 30px;
+}
+
+.mission{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+.join{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+.chose{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+.mission{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+}
+.wedo{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+    width: 80%;
+
+}
+
+
+
+#about h3:hover{
+    color: #333333;
+    border-radius: 20px;
+
+
+}
+
+#about p span{
+    font-size: 20px;
+    color: #254138;
+    font-weight: 700;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+.ust{
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#about .imga{
+display: flex;
+width: 50%;
+
+}
+
+.imga img{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+    background-color: #333333;
+    
+}
+
+footer p{
+    color: white;
+}
+
+.pic{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.pic img{
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width: 1024px) {
+    #heder{
+        flex-wrap: wrap;
+    }
+    #heder h1{
+        width: 90%;
+    } 
+    #heder .imge{
+        width: 600px;
+        height: 600px ;
+    } 
+    nav ul{
+        display: none;
+    }
+    
 }
