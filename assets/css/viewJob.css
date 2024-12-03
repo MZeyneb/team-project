@@ -190,6 +190,13 @@ header nav ul li a:hover {
     outline: none;
 }
 
+#select{
+    padding: 5px 7px;
+    border: 2px solid #A8D5BA;
+    border-radius: 10px;
+}
+
+
 @media (max-width: 768px) {
     .dashboard-container {
         flex-direction: column;

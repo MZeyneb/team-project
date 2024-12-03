@@ -96,7 +96,7 @@ function drawcards(arr) {
             <td>${element.id}</td>
             <td>${element.title}</td>
             <td>${element.description}</td>
-            <td>${element.salary}</td>
+            <td>${element.salary} AZN</td>
             <td>${element.employmentType}</td>
             <td>${element.expiresAt.slice(0, 10)}</td>
             <td></td>`;

@@ -70,22 +70,49 @@
       ]
     },
     {
-      "id": "d100",
-      "title": "Backend",
-      "description": "We are looking for skilled Backend dev",
-      "salary": "4,500",
+      "id": "19e5",
+      "title": "Backend Developer",
+      "description": "We are looking for skilled backend dev",
+      "salary": "4500",
       "employmentType": "Contract",
       "postedAt": "2024-12-03",
-      "expiresAt": "2024-12-30"
+      "expiresAt": "2025-01-09"
     },
     {
-      "id": "ecfa",
-      "title": "Design 3D",
-      "description": "Full design dev",
-      "salary": "2000 Azn",
-      "employmentType": "seosan",
+      "id": "2433",
+      "title": "3D Design",
+      "description": "We are looking for Desogner who have 3 year experience with Blender and 3DMax",
+      "salary": "2500-3000",
+      "employmentType": "Seosonal",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-31"
+    },
+    {
+      "id": "b1c1",
+      "title": "Janitor",
+      "description": "Woman janitor 8 hours work at office",
+      "salary": "800",
+      "employmentType": "Full-Time",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2024-12-19"
+    },
+    {
+      "id": "90f6",
+      "title": "Cashier",
+      "description": "Cashier at Bolmart",
+      "salary": "400",
+      "employmentType": "Part-Time",
       "postedAt": "2024-12-03",
       "expiresAt": "2024-12-25"
+    },
+    {
+      "id": "a517",
+      "title": "Sound Engineer",
+      "description": "Looking for Sound Engineer For Europe tour 2 weeks hotel and other included salary for each concert",
+      "salary": "1000",
+      "employmentType": "Contract",
+      "postedAt": "2024-12-03",
+      "expiresAt": "2025-04-10"
     }
   ]
 }
