@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -172,6 +173,10 @@ nav h1 {
     gap: 20px;
 }
 
+.jobs .cardsJobs{
+    display: flex;
+    gap: 20px;
+}
 
 
 .company .card {
@@ -208,6 +213,46 @@ nav h1 {
     font-size: 15px;
 }
 .company .card:hover {
+    scale: 1.05;
+}
+
+/* ---------- */
+
+
+.jobs .card {
+    margin: 30px 0;
+    width: 230px;
+    height: 250px;
+    background-color: #A8D5BA;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.jobs .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.jobs .card h3 {
+    /* position: absolute; */
+    bottom: 10px;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+}
+.jobs .card p{
+    position: absolute;
+    top: 170px;
+    font-size: 15px;
+}
+.jobs .card:hover {
     scale: 1.05;
 }
 
@@ -256,7 +301,7 @@ nav h1 {
 }
 
 .cont{
-    width: 40%;
+    width: 50%;
 }
 #about h3, h2{
     color: #254138;
@@ -278,29 +323,38 @@ nav h1 {
     overflow: hidden;
     height: 0;
     transition: 0.3s;
+    width: 80%;
+
 }
 
 .join{
     overflow: hidden;
     height: 0;
     transition: 0.3s;
+    width: 80%;
+
 }
 
 .chose{
     overflow: hidden;
     height: 0;
     transition: 0.3s;
+    width: 80%;
+
 }
 
 .mission{
     overflow: hidden;
     height: 0;
     transition: 0.3s;
+    width: 80%;
 }
 .wedo{
     overflow: hidden;
     height: 0;
     transition: 0.3s;
+    width: 80%;
+
 }
 
 
@@ -324,6 +378,7 @@ nav h1 {
 
 .ust{
     margin-bottom: 10px;
+    width: 80%;
 }
 
 #about .imga{
