@@ -248,16 +248,26 @@ nav h1 {
 }
 
 #about{
-    padding: 5% 3%;
-    width: 60%;
+    padding: 7% 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont{
+    width: 40%;
 }
 #about h3, h2{
     color: #254138;
+    transition: 0.3s;
 }
 
 #about h3{
     font-size: 25px;
     cursor: pointer;
+    width: 30%;
+
 }
 
 #about h2{
@@ -268,4 +278,63 @@ nav h1 {
     overflow: hidden;
     height: 0;
     transition: 0.3s;
+}
+
+.join{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+}
+
+.chose{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+}
+
+.mission{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+}
+.wedo{
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+}
+
+
+
+#about h3:hover{
+    color: #333333;
+    border-radius: 20px;
+
+
+}
+
+#about p span{
+    font-size: 20px;
+    color: #254138;
+    font-weight: 700;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+.ust{
+    margin-bottom: 10px;
+}
+
+#about .imga{
+display: flex;
+width: 50%;
+
+}
+
+.imga img{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
