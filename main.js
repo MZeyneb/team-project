@@ -2,6 +2,8 @@ import { BASE_URL } from "./constants.js";
 const user = document.querySelector(".side");
 const foruser = document.querySelector(".forUser");
 const inside = document.querySelector(".forUser .inside");
+const userName = document.querySelector('.side-name')
+const userImg = document.querySelector('.side-img')
 
 const nav = document.querySelector("nav")
 nav.style.height = "80px"
@@ -25,6 +27,16 @@ async function getAllData() {
     drawJobs(res2.data.slice(0, 7))
 
 }
+
+
+const storedUserData = localStorage.getItem('userData');
+if (storedUserData) {
+    const userData = JSON.parse(storedUserData);
+    if (userData.islogged===true) {
+        userName.textContent= userData.name
+    } 
+} 
+
 
 
 
@@ -86,6 +98,7 @@ function drawJobs(arr) {
 
     });
 }
+
 
 
 getAllData()
