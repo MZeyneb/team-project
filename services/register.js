@@ -158,7 +158,7 @@ document.getElementById('registerForm').addEventListener('submit', function(even
         localStorage.setItem('userData', JSON.stringify(userData));
 
         
-        window.location.href = 'companylogin.html';
+        window.location.href = 'login.html';
     }
 });
 
