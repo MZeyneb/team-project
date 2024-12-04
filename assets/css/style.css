@@ -481,7 +481,19 @@ nav table{
     nav table{
         display: flex;
     }
-    
+    #about .imga{
+        display: none;
+    }
+   
+    #about h3,p{
+        width: 100%;
+    }
+    #about .cont{
+        width: 100%;
+    }
+    #about{
+        padding-top: 100px;
+    }
 }
 
 
