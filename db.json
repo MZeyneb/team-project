@@ -1,0 +1,212 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Elvin Abbasov",
+            "email": "elvin.abbasov@example.com",
+            "createdAt": "2024-12-01T08:00:00Z",
+            "profileImage": "user.jpeg",
+            "linkedinUrl": "url here",
+            "experienceYear": 5,
+            "bio": "Experienced Software Engineer with a passion for web technologies.",
+            "skills": [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "TypeScript"
+            ]
+        }
+    ],
+    "companies": [
+        {
+            "name": "Tchnest",
+            "industry": "Data Science",
+            "website": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKWgMTGRzSvwLHjnwshkwDWQf",
+            "location": "Tokyo,Japan",
+            "id": 2,
+            "image": "https://imageio.forbes.com/specials-images/imageserve/615a844b0e678d9d11c5fc26/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+        },
+        {
+            "name": "GAME_SUMMIT",
+            "industry": "Game-Development",
+            "website": "https://getbootstrap.com/docs/4.0/components/alerts/",
+            "location": "Dubaji,BEE",
+            "id": 3,
+            "image": "https://cdn.iticket.az/event/gallery/77iH7PZU5Tmo7jSR8BXdBFoenbTXyiEBGqEmWd0b.jpg"
+        },
+        {
+            "name": "Code-For-Future",
+            "industry": "Front_end",
+            "website": "https://chatgpt.com/",
+            "location": "Elmler-Akademiyasi",
+            "id": 4,
+            "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Front_End_Developer_Job_Description.jpg"
+        },
+        {
+            "name": "Code-8",
+            "industry": "full-stack",
+            "website": "https://github.com/MZeyneb/team-project/blob/fatima/assets/css/dashboard.css",
+            "location": "ADNSU",
+            "id": 5,
+            "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/97/2020/10/tes_gen_blog_code1-800x412.jpg"
+        },
+        {
+            "name": "Tech Innovators Inc.",
+            "industry": "Technology",
+            "website": "https://techinnovators.com",
+            "location": "San Francisco, CA",
+            "id": 6,
+            "image": "https://innovationmanagement.se/wp-content/uploads/2013/05/what-is-innovation-governance-definition-scope.jpg"
+        },
+        {
+            "name": "Global Enterprises Group",
+            "industry": "Artificial Intelligence (AI)",
+            "website": "https://globalenterprises.com",
+            "location": "Sydney, Australia",
+            "id": 7,
+            "image": "https://a.storyblok.com/f/165154/1280x720/92fed695e9/01_hero-image_what-is-an-enterprise-company-definition-types-and-examples.jpg/m/"
+        },
+        {
+            "name": "Green Solutions LLC",
+            "industry": "Renewable Energy",
+            "website": "https://greensolutions.com",
+            "location": "New York, NY",
+            "id": 8,
+            "image": "https://greensolutions.eu/media/wysiwyg/GreenSolutions_02_2022_REZ_1.jpg"
+        },
+        {
+            "name": "Alpha Robotics Corp.",
+            "industry": "Manufacturing",
+            "website": "https://alpharobotics.com",
+            "location": "London, UK",
+            "id": 9,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgYn2fuGvg6hqFXfcYslwdDi8-WN_UMOLFQ&s"
+        },
+        {
+            "name": "Quantum Technologies Ltd.",
+            "industry": "Healthcare",
+            "website": "https://quantumtechnologies.com",
+            "location": "Berlin, Germany",
+            "id": 10,
+            "image": "https://www.oxinst.com/assets/components/phpthumbof/cache/Quantum%20Webinar%20-%20NanoSciene.bf36605bf435de95255253038a506f23.png"
+        }
+    ],
+    "vacancies": [
+        {
+            "id": "1",
+            "title": "Frontend Developer",
+            "companyId": 1,
+            "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+            "salary": "2000-3000 AZN",
+            "postedAt": "2024-11-30T10:00:00Z",
+            "expiresAt": "2024-12-31T23:59:59Z",
+            "employmentType": "Full-time",
+            "image": "https://novateus.com/blog/wp-content/uploads/2022/02/software-developer-gef18a0b18_1280.jpg",
+            "isActive": true,
+            "candidates": [
+                {
+                    "candidateId": "1",
+                    "status": "pending"
+                },
+                {
+                    "candidateId": "2",
+                    "status": "accepted"
+                },
+                {
+                    "candidateId": "3",
+                    "status": "rejected"
+                }
+            ]
+        },
+        {
+            "id": "19e5",
+            "title": "Backend Developer",
+            "description": "We are looking for skilled backend dev",
+            "salary": "4500 AZN",
+            "employmentType": "Contract",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2025-01-09",
+            "image": "https://blog.talent500.co/wp-content/uploads/2023/10/experienced-web-developer-doing-backend-development.jpg"
+        },
+        {
+            "id": "2433",
+            "title": "3D Design",
+            "description": "We are looking for Desogner who have 3 year experience with Blender and 3DMax",
+            "salary": "2500-3000 AZN",
+            "employmentType": "Seosonal",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2024-12-31",
+            "image": "https://www.javelin-tech.com/3d/wp-content/uploads/solidworks-software-800x601.jpg"
+        },
+        {
+            "id": "b1c1",
+            "title": "Janitor",
+            "description": "Woman janitor 8 hours work at office",
+            "salary": "800 AZN",
+            "employmentType": "Full-Time",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2024-12-19",
+            "image": "https://gray-wtok-prod.gtv-cdn.com/resizer/v2/RTP4QEG3D5BHNNXL5ICJSXW62Y.png?auth=5aa600d9479b595fdecc9e3a84c676a5443b2dab8d14e3e921513a4c3e7fceeb&width=800&height=450&smart=true"
+        },
+        {
+            "id": "90f6",
+            "title": "Cashier",
+            "description": "Cashier at Bolmart",
+            "salary": "400 AZN",
+            "employmentType": "Part-Time",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2024-12-25",
+            "image": "https://www.travsonic.com/wp-content/uploads/2022/01/audio-engineer-recording.jpg"
+        },
+        {
+            "id": "a517",
+            "title": "Sound Engineer",
+            "description": "Looking for Sound Engineer For Europe tour 2 weeks hotel and other included salary for each concert",
+            "salary": "1000 AZN",
+            "employmentType": "Contract",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2025-04-10",
+            "image": "https://www.travsonic.com/wp-content/uploads/2022/01/audio-engineer-recording.jpg"
+        },
+        {
+            "id": "40c7",
+            "title": "Personal Driver",
+            "description": "For personal drives with max comfort requires 5 year driving exp car is Mercedes S350",
+            "salary": "1200 AZN",
+            "employmentType": "Seosonal",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2024-12-26",
+            "image": "https://www.staffingattiffanies.com/wp-content/uploads/2021/02/Hire-a-Personal-Driver-or-Chauffeur.jpg"
+        },
+        {
+            "id": "6bfb",
+            "title": "Farmer",
+            "description": "Farming in field easy job exp no need",
+            "salary": "500 AZN",
+            "employmentType": "Temporary",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2025-01-25",
+            "image": "https://www.hull-o.com/wp-content/uploads/2015/10/Farmer.jpg"
+        },
+        {
+            "id": "b241",
+            "title": "Marketing Coordinator",
+            "description": "We are seeking a creative and highly organized Marketing Coordinator to join our dynamic team. This individual will be responsible for assisting with the execution of marketing strategies and campaigns that drive brand awareness and customer engagement. The ideal candidate will have strong communication skills, an understanding of digital marketing, and a passion for staying on top of industry trends.",
+            "salary": "1300 AZN",
+            "employmentType": "Full-Time",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2025-03-05",
+            "image": "https://c9staff.com/wp-content/uploads/2024/06/Understanding-the-Marketing-Coordinator-Role-1024x574.webp"
+        },
+        {
+            "id": "0d1f",
+            "title": "Software Engineer",
+            "description": "iwlesin",
+            "salary": "1 AZN",
+            "employmentType": "Part-Time",
+            "postedAt": "2024-12-03",
+            "expiresAt": "2024-12-31",
+            "image": "https://fsa2-assets.imgix.net/assets/iStock-1338373380.jpg?auto=compress%2Cformat&crop=focalpoint&domain=fsa2-assets.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=800&ixlib=php-3.3.1&w=1200"
+        }
+    ]
+}
