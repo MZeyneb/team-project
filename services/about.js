@@ -6,6 +6,26 @@ const missionh = document.querySelector(".missionh");
 const joinh = document.querySelector(".joinh");
 const wedoh = document.querySelector(".wedoh");
 const choseh = document.querySelector(".chooseh");
+const user = document.querySelector(".side");
+const foruser = document.querySelector(".forUser");
+const inside = document.querySelector(".forUser .inside");
+
+inside.style.top = "-88px"
+
+user.addEventListener("click", function () {
+    console.log(foruser);
+
+    if (inside.style.top !== "-88px") {
+
+        inside.style.top = "-88px";
+    } else {
+        console.log("b");
+
+        inside.style.top = "170px";
+    }
+});
+
+
 
 
 missionh.addEventListener("click", function(){
@@ -45,3 +65,15 @@ wedoh.addEventListener("click", function(){
     }
     
 })
+const nav = document.querySelector("nav")
+nav.style.height = "80px"
+
+const menu = document.querySelector(".menu")
+menu.addEventListener("click", () => {
+    if (nav.style.height == "80px") {
+        nav.style.height = "320px"
+    } else {
+        nav.style.height = "80px"
+    }
+})
+

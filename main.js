@@ -3,6 +3,19 @@ const user = document.querySelector(".side");
 const foruser = document.querySelector(".forUser");
 const inside = document.querySelector(".forUser .inside");
 
+const nav = document.querySelector("nav")
+nav.style.height = "80px"
+
+const menu = document.querySelector(".menu")
+menu.addEventListener("click", () => {
+    if (nav.style.height == "80px") {
+        nav.style.height = "320px"
+    } else {
+        nav.style.height = "80px"
+    }
+})
+
+
 async function getAllData() {
 
     const res = await axios(`${BASE_URL}/companies`)
@@ -10,7 +23,7 @@ async function getAllData() {
 
     const res2 = await axios(`${BASE_URL}/vacancies`)
     drawJobs(res2.data.slice(0, 7))
-    
+
 }
 
 
@@ -39,27 +52,30 @@ function drawCompanies(arr) {
     arr.forEach(element => {
         const card = document.createElement("div")
         card.classList.add("card")
-        card.innerHTML=`
+        card.innerHTML = `
                 <div class="pic">
+                <img src="${element.image}">
                 </div>
                 <h3>${element.name}</h3>
                 <p>${element.industry}</p>
         `
         cardsComp.appendChild(card)
-        
+
     });
 
 }
 
 
 
-function drawJobs(arr){
+function drawJobs(arr) {
     cardsjobs.innerHTML = "";
     arr.forEach(element => {
         const card = document.createElement("div")
         card.classList.add("card")
-        card.innerHTML=`
-
+        card.innerHTML = `
+                <div class="pic">
+                <img src="${element.image}">
+                </div>
                 <h3>${element.title}</h3>
                 <p>${element.employmentType}</p>
 
@@ -67,7 +83,7 @@ function drawJobs(arr){
 
         `
         cardsjobs.appendChild(card)
-        
+
     });
 }
 
