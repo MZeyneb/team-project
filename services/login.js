@@ -1,25 +1,28 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();  
+document.getElementById('loginForm').addEventListener('submit', async function(event) {
+    event.preventDefault(); 
+    
+    
 
-   
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
+    const subbtn = document.querySelector("#loginForm")
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value.trim();
 
   
-    const storedUserData = localStorage.getItem('userData');
-    
-    if (storedUserData) {
-        const userData = JSON.parse(storedUserData); //  burada saxlanilmis melumat string formatindadir. Json.parse yaziriqki  stringi obyekt formatina cevrilsin
+    const response = await axios('http://localhost:3000/users')
+      subbtn.addEventListener("submit", ()=>{
+        drawusers(response.data)
+      })
 
-      
-        if (userData.email === email && userData.password === password) {  // burada eger daxil olunmus sifre ve email eynidirse lS daki ile giris ugurlu olur ve biz index.html sehifesine gedr
-          window.location.replace('index.html')
-        } else {
-            alert('Invalid email or password!');
-        }
-    } else {
-        alert('No registered users found.');
-    }
+      function drawusers(arr){
+        arr.forEach(element => {
+          if (element.email === email && element.password === password) {  // burada eger daxil olunmus sifre ve email eynidirse lS daki ile giris ugurlu olur ve biz index.html sehifesine gedr
+            window.location.replace('index.html')
+          }
+        });
+      }
+    
+    
+
 });
 
 
