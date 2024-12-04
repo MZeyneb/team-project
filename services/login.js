@@ -13,8 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
       
         if (userData.email === email && userData.password === password) {  // burada eger daxil olunmus sifre ve email eynidirse lS daki ile giris ugurlu olur ve biz index.html sehifesine gedr
-        
-            window.location.href = 'index.html';
+          window.location.replace('index.html')
         } else {
             alert('Invalid email or password!');
         }
